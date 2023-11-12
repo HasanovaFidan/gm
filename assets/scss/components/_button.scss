@@ -1,0 +1,87 @@
+.btn{
+    width: 90px;
+    height: 34px;
+   background-color: rgb(125, 185, 6);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: aliceblue;
+    border: none;
+ margin-left: 700px;
+ font-weight: bold;
+ border-radius: 3px;
+}
+.btun{
+    width: 90px;
+    height: 34px;
+    margin-top: 50px;
+   background-color: rgb(125, 185, 6);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: aliceblue;
+    border: none;
+ margin-left: 700px;
+ font-weight: bold;
+ border-radius: 3px;
+ margin-bottom: 20px;
+}
+.bton{
+    width: 90px;
+    height: 34px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+   background-color: rgb(125, 185, 6);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: aliceblue;
+    border: none;
+ margin-left: 700px;
+ font-weight: bold;
+ border-radius: 3px;
+
+}
+.none__two button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(131, 194, 3);
+  &:hover{
+   background-color: rgba(149, 216, 14, 0.521);
+        transition: 0.7s;
+    }
+}
+.btin{
+    width: 90px;
+    height: 40px; 
+    margin-top: 90px;
+    margin-bottom: 90px;
+   background-color: rgb(125, 185, 6);
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: aliceblue;
+    border: none;
+ margin-left: 700px;
+ font-weight: bold;
+ border-radius: 3px;
+
+}
+
+.qeydiyyat{
+    width: 370px;
+    height: 45px;
+    background-color: yellowgreen;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35)x 15px;
+    font-size: 16px;
+      padding-left: 10px;
+      margin-left: 59px;
+      color: aliceblue;
+      border: none;
+      margin-top: 20px;
+
+      &:hover{
+        background-color: rgba(149, 216, 14, 0.521);
+             transition: 0.7s;
+         }
+}

@@ -1,0 +1,105 @@
+@import "../components/button";
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(30, 29, 29);
+  
+}
+.radio_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+border: 1px solid yellowgreen;
+    width: 240px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: 800px;
+    input[type="radio"] {
+        appearance: none;
+        display: none;
+    }
+ 
+}
+
+
+
+label {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    color: yellowgreen;
+}
+
+input[type="radio"]:checked + label {
+    background-color: yellowgreen;
+    color: #f1f3f5;
+    font-weight: 900;
+    transition: 0.3s;
+    font-size: 12px;
+    border-radius: 6px;
+}
+.h1{
+margin-left: 500px;
+padding-top: 40px;
+
+ a{
+text-decoration: none; 
+font-size: 40px;
+color: aliceblue;
+}
+}
+.register {
+ margin-top: 50px;
+ margin-left: 600px;
+    width: 500px;
+    height: 860px;
+    border: none;
+    background-color: rgb(22, 22, 22);
+    h4{
+        margin-left: 160px;
+        font-size: 35px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       padding-top: 20px;
+    }
+    
+
+    input{
+        width: 370px;
+        height: 45px;
+      margin-left: 59px;
+      border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.35)x 15px;
+      font-size: 16px;
+      padding-left: 10px;
+    }
+    label{
+      font-size: 16px;
+      margin-left: 44px;
+      
+    }
+p{
+margin-top: 16px;
+        font-size: 20px;
+        margin-left: 60px;
+        color: #f1f3f5;
+        a{
+            text-decoration: none;
+            color: rgb(63, 63, 240);
+            &:hover{
+                color: greenyellow;
+                cursor: pointer;
+
+            }
+        }
+    
+}
+
+    
+}
+

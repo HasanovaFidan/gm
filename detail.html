@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/scss/main.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+
+        <div class="umumi">
+            <div class="title">  
+            <span class="span"><i class="fa-solid fa-gamepad"></i> </span>
+                <h1>GAMENOTE</h1>
+        
+            </div>
+                <div class="icons">
+                    <i id="gear" class="fa-solid fa-gear"></i>
+                    <i class="fa-solid fa-heart"></i>
+              <i id="basket" class="fa-solid fa-cart-shopping"></i>
+                    <i id="bracket" class="fa-solid fa-right-to-bracket"></i>
+    
+                </div>
+                
+         
+        </div>
+        <div class="none__div">
+            <h6>Ölkə</h6>
+            <select class="option">
+                
+                <option value="value1">Azerbaijan</option>
+                <option value="value2">GERMANY</option>
+                <option value="value3">ISVEC</option>
+                <option value="value3">TURKEY</option>
+                <option value="value3">GREECE</option>
+                <option value="value3">USA</option>
+                <option value="value3">ENGLAND</option>
+                <option value="value3">ISRAEL</option>
+                <option value="value3">AFRCA</option>
+                <option value="value3">JAPAN</option>
+                <option value="value3">KORE</option>
+                <option value="value3">TAYLAND</option>
+                <option value="value3">HOLLAND</option>
+                <option value="value3">ITALY</option>
+                <option value="value3">BRAZILIA</option>
+              </select>
+              <h6>Şəhər</h6>
+              <select class="option">
+                  <option value="value1">Baku</option>
+                  <option value="value2">GERMANY</option>
+                  <option value="value3">ISVEC</option>
+                  <option value="value3">TURKEY</option>
+                  <option value="value3">GREECE</option>
+                  <option value="value3">USA</option>
+                  <option value="value3">ENGLAND</option>
+                  <option value="value3">ISRAEL</option>
+                  <option value="value3">AFRCA</option>
+                  <option value="value3">JAPAN</option>
+                  <option value="value3">KORE</option>
+                  <option value="value3">TAYLAND</option>
+                  <option value="value3">HOLLAND</option>
+                  <option value="value3">ITALY</option>
+                  <option value="value3">BRAZILIA</option>
+                </select>
+                <p>Dil</p>
+                <form class="form">
+                 
+                  <input class="type" type="radio" id="option1" name="options" value="option1">
+                  <label class="typa" for="option1">Azerbaycanca</label><br>
+              
+                  <input class="type" type="radio" id="option2" name="options" value="option2">
+                  <label class="typa" for="option2">Русский</label><br>
+              
+                  <input class="type" type="radio" id="option3" name="options" value="option3">
+                  <label class="typa" for="option3">English</label><br>
+              </form>
+              
+                
+          </div>
+      <div class="none__two">
+        <h4>GİRİŞ</h4>
+        <input type="text" placeholder="istifadeci adini ve ya emaili daxil edin">
+        <input type="password" placeholder="sifreni daxil edin">
+        <button>Daxil ol</button>
+        <p>Hesabin yoxdur? <a href="register.html">Qeydiyyatdan kec</a></p>
+      </div>
+       
+        
+        <div class="yellow">
+            <p>ASUS ROG/TUF</p>
+            <p>MSI GAMING</p>
+            <p>ACER PREDATOR/NITRO</p>
+            <p>ALIENWARE</p>
+            <p>LENOVO</p>
+            <p>RAZER</p> 
+            <p>AKSESUARLAR</p>
+            <p>NVIDIA</p>
+            <p>ASUS ROG</p>
+           <div class="icoipu">
+            <i id="ser" class="fa-solid fa-magnifying-glass fa-bounce" style="color: #343434;"></i>
+             <input id="inputsearch" type="text" placeholder="Mehsul ya da brend axtar">
+            </div>
+        </div>
+
+    </header>   
+
+ <main>
+    <a href="index.html"><button class="back">BACK</button></a>
+    <div class="right">
+        <div class="imeg">
+            <img src="https://gamenotebaku.az/cdn/storage/product_images/ZY8ZKJFB7P9HHw6ou/fullHD/ZY8ZKJFB7P9HHw6ou.png" alt="">
+        </div>
+        <div class="write">
+            <h2>ASUS ROG Strix G16 (RTX4060)</h2>
+            <p class="greenp">3199</p>
+            <p>ASUS</p>
+            <p>ASUS ROG / TUF</p>
+           <p>Azerbaijan, Bakı ünvanına 0azn qiymətinə çatdırılır</p>
+          <h3>Xususiyyetleri</h3>
+          <p>reng: <span id="colorSquare" onclick="changeColor()"></span></p>
+            <p>olcu:16GB DDR5 4800MHz</p>
+            <div class="allo">
+                <p>miqdar:</p>
+                <div class="azalt"><button id="azalt">-</button></div>
+                <div id="orta" class="orta">0</div>
+                <div class="artir"><button id="artir"> +</button></div>
+        
+            </div>
+            <div class="clas"></div>
+            <p>umumi qiymet</p>
+            <button id="sebet">səbətə at</button>
+            <div class="clas"></div>
+            <div class="mehsul">
+                <div class="pler">
+            <p>olcu</p>
+            <p>reng: <span id="colorSquare" onclick="changeColor()"></span></p>
+            <p>istehsal olkesi</p>
+            <p>xarakteriskasi</p>
+                </div>
+                <div class="yazilar">
+                    <p>RAM: 16GB DDR5 4800MHz</p>
+                    <p>Qara</p>
+                    <p>China</p>
+                    <p>Model: ASUS ROG Strix G16 (2023) <br>
+                        -16” 240Hz QHD IPS Level ROG Nebula Display <br>
+                        -Intel Core I5-13450HX 10 Core Processor (i7-12700H dan daha gujlu) <br>
+                        -Nvidia GeForce RTX 4060 8GB Max Performance (140WT TGP) <br>
+                        -16GB DDR5 4800MHz (Max 64GB) Memory  <br>
+                        -1TB M2 PCIe Gen4 NVMe Performance SSD <br>
+                        -Dolby Vision & Dolby Atmos <br>
+                        -Backlit Chiclet Keyboard Per-Key RGB <br>
+                        -Intel WiFi6E (TriBand) <br>
+                        -90 WHr Battery - supports 100W USB-C fast charging <br>
+                        -Windows 11 Pro <br>
+                        -Asus ROG Impact II Gaming Mouse</p>
+                        <div class="clas"></div>
+                </div>
+           
+            </div>
+            <div class="footer__main">
+                <img src="https://gamenotebaku.az/cdn/storage/manufacturer_images/FzC4WTmsodWECm3pX/HD/FzC4WTmsodWECm3pX.png" alt="">
+            <h6>Brendin yeniliklərinə və endirim kampaniyalarına abunə olun.</h6>  
+            <button class="brend">Brende abune ol</button>
+            </div>
+
+        
+        </div>
+    
+    </div>
+
+</div>
+<div class="basliq">
+    <div class="xett"></div>
+    <h3>ASUS</h3>
+    <div class="xett"></div>
+
+</div>
+<div class="all">
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+<div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+  <div class="card">
+    <img src="https://gamenotebaku.az/cdn/storage/product_images/dindv2ubEvGZGrmFs/fullHD/dindv2ubEvGZGrmFs.png" alt="">
+    <div class="flex">
+      <p>ASUS TUF Gaming F15 (2023)</p> 
+      <span>2399</span>
+    </div>
+    <h4>$ASUS<h4>
+</div>
+  
+  
+   
+        
+    </div>
+    <button class="btin">HAMISI</button>
+    <div class="basliq">
+        <div class="xett"></div>
+        <h3>ASUS ROG/TUF</h3>
+        <div class="xett"></div>
+    
+    </div>
+    <div class="all">
+        <div class="card">
+            <img src="https://gamenotebaku.az/cdn/storage/product_images/Lmzdrcewbv5T4zJa9/fullHD/Lmzdrcewbv5T4zJa9.png" alt="">
+            <div class="flex">
+              <p>ASUS ROG Strix G16 (2023)</p> 
+              <span>3399</span>
+            </div>
+            <h4>$ASUS<h4>
+        </div>
+        <div class="card">
+            <img src="https://gamenotebaku.az/cdn/storage/product_images/Lmzdrcewbv5T4zJa9/fullHD/Lmzdrcewbv5T4zJa9.png" alt="">
+            <div class="flex">
+              <p>ASUS ROG Strix G16 (2023)</p> 
+              <span>3399</span>
+            </div>
+            <h4>$ASUS<h4>
+        </div>
+        <div class="card">
+            <img src="https://gamenotebaku.az/cdn/storage/product_images/Lmzdrcewbv5T4zJa9/fullHD/Lmzdrcewbv5T4zJa9.png" alt="">
+            <div class="flex">
+              <p>ASUS ROG Strix G16 (2023)</p> 
+              <span>3399</span>
+            </div>
+            <h4>$ASUS<h4>
+        </div>
+        <div class="card">
+            <img src="https://gamenotebaku.az/cdn/storage/product_images/Lmzdrcewbv5T4zJa9/fullHD/Lmzdrcewbv5T4zJa9.png" alt="">
+            <div class="flex">
+              <p>ASUS ROG Strix G16 (2023)</p> 
+              <span>3399</span>
+            </div>
+            <h4>$ASUS<h4>
+        </div>
+        <div class="card">
+            <img src="https://gamenotebaku.az/cdn/storage/product_images/Lmzdrcewbv5T4zJa9/fullHD/Lmzdrcewbv5T4zJa9.png" alt="">
+            <div class="flex">
+              <p>ASUS ROG Strix G16 (2023)</p> 
+              <span>3399</span>
+            </div>
+            <h4>$ASUS<h4>
+        </div>
+        <div class="card">
+            <img src="https://gamenotebaku.az/cdn/storage/product_images/Lmzdrcewbv5T4zJa9/fullHD/Lmzdrcewbv5T4zJa9.png" alt="">
+            <div class="flex">
+              <p>ASUS ROG Strix G16 (2023)</p> 
+              <span>3399</span>
+            </div>
+            <h4>$ASUS<h4>
+        </div>
+        <div class="card">
+            <img src="https://gamenotebaku.az/cdn/storage/product_images/Lmzdrcewbv5T4zJa9/fullHD/Lmzdrcewbv5T4zJa9.png" alt="">
+            <div class="flex">
+              <p>ASUS ROG Strix G16 (2023)</p> 
+              <span>3399</span>
+            </div>
+            <h4>$ASUS<h4>
+        </div>
+        <div class="card">
+            <img src="https://gamenotebaku.az/cdn/storage/product_images/Lmzdrcewbv5T4zJa9/fullHD/Lmzdrcewbv5T4zJa9.png" alt="">
+            <div class="flex">
+              <p>ASUS ROG Strix G16 (2023)</p> 
+              <span>3399</span>
+            </div>
+            <h4>$ASUS<h4>
+        </div>
+      
+    </div>
+    <button class="btin">HAMISI</button>
+ </main>
+ <footer>
+    <div class="container">
+      <div class="footer__umumi">
+          <div class="basliq">  
+          <span class="span"><i class="fa-solid fa-gamepad"></i> </span>
+              <h1>GAMENOTE</h1>
+          </div>
+              <div class="iconlar">
+                <div class="div1">  <i class="fa-brands fa-facebook-f"></i></div>
+                <div class="div2">  <i class="fa-brands fa-instagram"></i></div>
+             <div class="div3"><i class="fa-brands fa-whatsapp"></i></div>
+              </div>
+      </div>
+      <div class="class"></div>
+  <div class="end">
+  <div class="bir">
+      <a href="">Xidmetler</a>
+      <a href="">Sirket haqqinda</a>
+      <a href="">Qaytarılma siyasəti</a>
+      <a href="">Məxfilik siyasəti</a>
+      <a href="">Əlaqə və Ünvanlar</a>
+      <a href="">Zəmanət şərtləri </a>
+      <a href="">Xəbərlər</a>
+  </div>
+   <div class="ayri"><a href="">Catalogs</a></div>
+  </div>
+      
+   <div class="class"></div>
+   <div class="footer__s">
+  
+      <h5>gamenotebaku.az  2019-2020 Bütün hüquqlar qorunur</h5>
+      <p>powered by <span>CUBICS</span></p>
+   </div>
+  
+    </div>
+                 
+  
+                  
+                  
+  
+  
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/detail.js"></script>
+</body>
+</html>
